@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    align-items: center;
+}
+
+.card {
+    position: relative;
+    height: 450px;
+    width: 350px;
+    background-color: rgb(226, 232, 240);
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .texting h2 {
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card .player .yt{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.card .player .watch {
+    text-align: center;
+}
+
+.card .image .gambar {
+    position: relative;
+    width: 150px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+}
